@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!---******************************************************************************
+* @file    ru-features.xml
+* @brief   configuration file for RU features
+*  *****************************************************************************-->
+
+<features>
+<country name="RU">
+    <feature name="com.google.android.feature.RU" />
+</country>
+</features>

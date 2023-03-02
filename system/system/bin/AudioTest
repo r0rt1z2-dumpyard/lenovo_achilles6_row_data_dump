@@ -1,0 +1,171 @@
+#!/system/bin/sh
+#########################################################################
+#	AudioTest chmod 777 AudioTest
+#	adb push AudioTest system/bin
+#########################################################################
+
+
+#HQ:tanyang
+#input:    MainMic = 1, sub mic = 2, headset mic = 3
+#output:   receiver =1, headset = 2, speaker = 3
+#on-off:   on = 1, off =0
+
+
+function print_usage(){
+    echo "Usage:"$0" input output on-off"
+    echo "input    [MainMic = 1]  [sub mic = 2] [headset mic = 3]"
+    echo "output   [receiver = 1] [headset = 2] [speaker = 3]"
+    echo "on-off   [on = 1]       [off = 0]"
+}
+
+case $1 in
+    "1") #Main Mic
+	case $2 in
+	    "2") #headset
+	     	case $3 in
+		      "1")
+			  AudioSetParam SET_LOOPBACK_TYPE=1,2;
+			  #tinymix Headset_PGAL_GAIN 5;
+			  #tinymix Headset_PGAR_GAIN 5;
+			  tinymix Audio_PGA1_Setting 3;
+			  tinymix Audio_PGA2_Setting 3;
+			  echo "open MainMic to headset loopback";
+		      ;;
+		     "0")
+			  AudioSetParam SET_LOOPBACK_TYPE=0;
+			  echo "close MainMic to headset loopback";
+		      ;;
+			*)
+			  print_usage
+        		  exit 1
+		      ;;
+		  esac
+	     ;;
+	    "3") #speaker
+	     	case $3 in
+		     "1")
+			  AudioSetParam SET_LOOPBACK_TYPE=1,3;
+			  #tinymix Audio_PGA1_Setting 3;
+			  #tinymix Audio_PGA2_Setting 3;
+			  echo "open MainMic to  speaker";
+		      ;;
+		     "0")
+			  AudioSetParam SET_LOOPBACK_TYPE=0;
+			  echo "close MainMic to  speaker";
+		      ;;
+			*)
+			  print_usage
+        		  exit 1
+		      ;;
+		  esac
+	     ;;
+	     *)
+		print_usage
+        	exit 1
+	     ;;
+	esac
+     ;;
+    "2") #subMic
+	case $2 in
+	    "2") #headset
+	     	case $3 in
+		     "1")
+			  AudioSetParam SET_LOOPBACK_TYPE=3,2;
+			  #tinymix Headset_PGAL_GAIN 5;
+			  #tinymix Headset_PGAR_GAIN 5;
+			  tinymix Audio_PGA1_Setting 3;
+			  tinymix Audio_PGA2_Setting 3;
+			  echo "open SubMic to headset loopback";
+		      ;;
+		     "0")
+			  AudioSetParam SET_LOOPBACK_TYPE=0;
+			  echo "close SubMic to headset loopback";
+		      ;;
+		      *)
+			  print_usage
+			  exit 1
+                      ;;
+		  esac
+	      ;;
+	     *)
+		 print_usage
+		 exit 1
+	     ;;
+	esac
+     ;;
+    "3") #headset mic
+	case $2 in
+	    "1") #headset
+	     	case $3 in
+		     "1")#receiver
+			  AudioSetParam SET_LOOPBACK_TYPE=2,3;
+			  tinymix Left_Pa_Switch On;
+			  tinymix Right_Pa_Switch Off;
+			  #tinymix Handset_PGA_GAIN 3;
+			  tinymix Audio_PGA1_Setting 3;
+			  tinymix Audio_PGA2_Setting 3;
+			  echo "open headset mic to Left speaker loopback";
+		      ;;
+		     "0")
+			  AudioSetParam SET_LOOPBACK_TYPE=0;
+			  echo "close headset mic to Left speaker loopback";
+		      ;;
+		       *)
+			  print_usage
+			  exit 1
+		      ;;
+		  esac
+	     ;;
+	    "2") #headset
+	     	case $3 in
+		     "1")
+			  AudioSetParam SET_LOOPBACK_TYPE=2,2;
+			  #tinymix Headset_PGAL_GAIN 5;
+			  #tinymix Headset_PGAR_GAIN 5;
+			  #tinymix Audio_PGA1_Setting 3;
+			  #tinymix Audio_PGA2_Setting 3;
+			  echo "open headset mic to headset loopback";
+		      ;;
+		     "0")
+			  AudioSetParam SET_LOOPBACK_TYPE=0;
+			  echo "close headset mic to headset loopback";
+		      ;;
+		       *)
+			  print_usage
+			  exit 1
+		      ;;
+		  esac
+	     ;;
+	    "3") #speaker
+	     	case $3 in
+		     "1")
+			  AudioSetParam SET_LOOPBACK_TYPE=2,3;
+			  tinymix Left_Pa_Switch Off;
+			  tinymix Right_Pa_Switch On;
+			  tinymix Audio_PGA1_Setting 3;
+			  tinymix Audio_PGA2_Setting 3;
+			  echo "open headset mic to Right speaker loopback";
+		      ;;
+		     "0")
+			  AudioSetParam SET_LOOPBACK_TYPE=0;
+			  echo "close headset mic to speaker loopback";
+		      ;;
+		      *)
+			  print_usage
+	    		  exit 1
+		      ;;
+		  esac
+	     ;;
+	     *)
+		print_usage
+		exit 1
+	     ;;
+	esac
+     ;;
+    *)
+        print_usage
+        exit 1
+    ;;
+esac
+
+exit 0

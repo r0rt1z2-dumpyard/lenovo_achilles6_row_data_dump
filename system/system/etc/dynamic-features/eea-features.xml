@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!---******************************************************************************
+* @file    eea-features.xml
+* @brief   configuration file for EEA features
+*  *****************************************************************************-->
+
+<features>
+<property name="eea">
+    <feature name="com.google.android.feature.EEA_DEVICE" />
+    <feature name="com.google.android.paid.search" />
+    <feature name="com.google.android.paid.chrome" />
+</property>
+
+<property name="eea_v2">
+    <feature name="com.google.android.feature.EEA_V2_DEVICE" />
+</property>
+</features>

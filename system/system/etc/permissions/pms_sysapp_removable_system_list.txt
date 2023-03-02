@@ -1,0 +1,10 @@
+com.android.quicksearchbox
+com.android.calendar
+com.android.dreams.basic
+com.android.musicfx
+com.android.calculator2
+com.android.exchange
+com.google.android.calendar
+com.android.music
+com.android.email
+com.microsoft.bingintl

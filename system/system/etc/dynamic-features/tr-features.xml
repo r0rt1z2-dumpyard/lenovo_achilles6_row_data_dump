@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!---******************************************************************************
+* @file    tr-features.xml
+* @brief   configuration file for TR features
+*  *****************************************************************************-->
+
+<features>
+<country name="TR">
+    <feature name="com.google.android.feature.TR_DEVICE" />
+    <feature name="com.google.android.paid.qsb_widget" />
+</country>
+</features>

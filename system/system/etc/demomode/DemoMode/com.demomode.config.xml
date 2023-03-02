@@ -1,0 +1,36 @@
+<configs>
+    <!-- This config is prerequisite.
+    "true" means will launch ePOS app to auto loop the brand video. And need to config "epos_package_name" and "epos_class_name".
+    "false" means will auto loop preloaded video in system/etc/demomode/DemoMode/DemoMode.mp4. And need to config "preloaded_video_orientation" -->
+    <config name="demo_mode_launch_epos">true</config>
+
+    <!-- These two configs are necessary when "demo_mode_launch_epos" is true.
+    "epos_package_name" is ePOS app's package name, "epos_class_name" is ePOS app's main class name. -->
+    <config name="epos_package_name">com.lenovo.smart_tab_m10_fhd</config>
+    <config name="epos_class_name">com.lenovo.tab.MainActivity</config>
+
+    <!-- These two configs are necessary when "demo_mode_launch_epos" is true.
+    "Compatible with Bundle and non-Bundle versions in the same system version.
+    "epos_package_name_bundle" is ePOS app's package name of the bundle version,
+　　"epos_class_name_bundle" is ePOS app's main class name of the bundle version.-->
+    <config name="epos_package_name_bundle"></config>
+    <config name="epos_class_name_bundle"></config>
+
+    <!-- This config lists the browsers' package name that will be clear data by demo mode. -->
+    <config name="browser_package_name">com.android.chrome, com.lenovo.browser</config>
+
+    <!-- This config lists the apps' package name that will be clear data by demo mode. -->
+    <config name="clear_package_name">com.google.android.gm.lite, com.google.android.gm, com.android.email, com.microsoft.office.excel, com.microsoft.office.onenote, com.microsoft.office.outlook, com.microsoft.office.powerpoint, com.microsoft.office.word, com.evernote</config>
+
+    <!-- This config lists the file path that will be clear by demo mode. -->
+    <config name="clear_path_name"></config>
+
+    <!-- This config lists the settings config that will be restore by demo mode. (format  group:key:valueType:value) -->
+    <config name="restore_settings_config"></config>
+
+    <!-- This config is necessary when "demo_mode_launch_epos" is false.
+    This config linked activity attribute android.R.attr#screenOrientation. "landscape" is 0, "portrait" is 1 -->
+    <config name="preloaded_video_orientation">1</config>
+
+    <config name="row_licensekey">a3c01682405addc1d9b6f3e7188c7a3340eeaa5a20b7c2330a44400d8a6bfc811</config>
+</configs>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+    <config name="remove_apk" value="FMRadio"/>
+    <config name="regional_specialty_apk" value="FSKAREN;Theme_Aqua;Theme_DecoCute;Theme_DecoKira;Theme_JapaneseStyle;Theme_Pretty;Theme_Sf;Theme_Stylish;Theme_ToyBox;Theme_Wood;AmazonMusic"/>
+    <config name="language" value="ja_JP"/>
+    <config name="regulatory_information" value="yes"/>
+    <config name="jp_default_ime" value="yes"/>
+    <config name="timezone" value="Asia/Tokyo"/>
+</list>

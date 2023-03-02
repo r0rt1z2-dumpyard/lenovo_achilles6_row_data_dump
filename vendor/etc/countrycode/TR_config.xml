@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+    <config name="remove_apk" value="Videos;FMRadio"/>
+    <config name="language" value="tr_TR"/>
+    <config name="timezone" value="Europe/Istanbul"/>
+</list>

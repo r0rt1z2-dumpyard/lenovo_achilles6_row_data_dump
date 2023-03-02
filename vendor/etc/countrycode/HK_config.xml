@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+    <config name="language" value="zh-Hant-HK"/>
+    <config name="lenovo_usage_statistics_menu" value="yes"/>
+    <config name="timezone" value="Asia/Hong_Kong"/>
+</list>
+

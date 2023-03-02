@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+    <config name="regional_specialty_apk" value="AmazonMusic"/>
+    <config name="language" value="en_NZ"/>
+    <config name="date_formate_dd_mm_yyyy" value="yes"/>
+    <config name="timezone" value="Pacific/Auckland"/>
+</list>

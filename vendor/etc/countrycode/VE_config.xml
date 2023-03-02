@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+    <config name="SmsEncoding7bit" value="yes"/>
+    <config name="language" value="es_US"/>
+    <config name="timezone" value="America/Caracas"/>
+</list>

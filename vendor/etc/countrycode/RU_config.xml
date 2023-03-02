@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+ <config name="regional_specialty_apk" value="YandexBrowser;YandexSearch;LenovoRUApps"/>
+    <config name="remove_apk" value="Hangouts;BingWallpaper"/>
+    <config name="timezone" value="Europe/Moscow"/>
+    <config name="MmsConfigMaxSize" value="1024000"/>
+    <config name="language" value="ru_RU"/>
+    <config name="def_time_12_24" value="yes"/>
+    <config name="date_formate_dd_mm_yyyy" value="yes"/>
+    <config name="data_traffic" value="yes"/>
+</list>
+

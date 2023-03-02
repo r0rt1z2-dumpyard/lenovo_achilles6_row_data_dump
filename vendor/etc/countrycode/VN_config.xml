@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+    <config name="language" value="en_US"/>
+    <config name="backlight_brightness" value="yes"/>
+    <config name="timezone" value="Asia/Ho_Chi_Minh"/>
+</list>

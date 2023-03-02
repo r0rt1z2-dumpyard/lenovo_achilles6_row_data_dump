@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+    <config name="language" value="en-US"/>
+    <config name="backlight_brightness" value="yes"/>
+    <config name="new_uninstallable_apk" value="OnlineOral"/>
+    <config name="new_uninstallable_apk" value="MonkeyAI"/>
+</list>

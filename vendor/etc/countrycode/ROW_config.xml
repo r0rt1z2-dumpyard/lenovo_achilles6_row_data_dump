@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+    <config name="all_regional_specialty_apks" value="YandexBrowser;YandexSearch;FSKAREN;Theme_Aqua;Theme_DecoCute;Theme_DecoKira;Theme_JapaneseStyle;Theme_Pretty;Theme_Sf;Theme_Stylish;Theme_ToyBox;Theme_Wood;Podcasts;SearchSelector;AudioBook;LenovoRUApps;AmazonMusic"/>
+    <config name="chrome_home_page" value="http://www.lenovo.com"/>
+    <config name="new_uninstallable_apk" value="CalculatorGoogle"/>
+</list>

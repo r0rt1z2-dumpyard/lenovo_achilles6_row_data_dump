@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+    <!-- GEO: EMEA start -->
+    <EMEA region="UKI" group="United Kingdom" country="United Kingdom" code="GBE" />
+    <EMEA region="East" group="Russia" country="Russia" code="RU" />
+    <EMEA region="East" group="Ukraine" country="Ukraine" code="UA" />
+    <EMEA region="East" group="Turkey" country="Turkey" code="TR" />
+    <EMEA region="East" group="Poland" country="Poland" code="PLE" />
+    <EMEA region="East" group="Bulgaria" country="Hungary" code="HUE" />
+    <EMEA region="East" group="Bulgaria" country="Romania" code="ROE" />
+    <EMEA region="East" group="Bulgaria" country="Bulgaria" code="BGE" />
+    <EMEA region="East" group="Bulgaria" country="Greece" code="GRE" />
+    <EMEA region="East" group="Bulgaria" country="Croatia" code="HRE" />
+    <EMEA region="East" group="Bulgaria" country="Slovenia" code="SIE" />
+    <EMEA region="East" group="Bulgaria" country="Cyprus" code="CYE" />
+    <EMEA region="East" group="Bulgaria" country="Serbia" code="RS" />
+    <EMEA region="East" group="Czech Republic" country="Czech Republic" code="CZE" />
+    <EMEA region="East" group="Czech Republic" country="Slovakia" code="SKE" />
+    <EMEA region="Central" group="Sweden" country="Germany" code="DEE" />
+    <EMEA region="South" group="Sweden" country="Italy" code="ITE" />
+    <EMEA region="Central" group="Sweden" country="Austria" code="ATE" />
+    <EMEA region="South" group="Sweden" country="France" code="FRE" />
+    <EMEA region="South" group="Sweden" country="Spain" code="ESE" />
+    <EMEA region="South" group="Sweden" country="Portugal" code="PTE" />
+    <EMEA region="North" group="Sweden" country="Netherlands" code="NLE" />
+    <EMEA region="North" group="Sweden" country="Belgium" code="BEE" />
+    <EMEA region="North" group="Sweden" country="Sweden" code="SEE" />
+    <EMEA region="North" group="Sweden" country="Denmark" code="DKE" />
+    <EMEA region="North" group="Sweden" country="Norway" code="NOE" />
+    <EMEA region="North" group="Sweden" country="Finland" code="FIE" />
+    <EMEA region="North" group="Sweden" country="Estonia" code="EEE" />
+    <EMEA region="North" group="Sweden" country="Latvia" code="LVE" />
+    <EMEA region="North" group="Sweden" country="Lithuania" code="LTE" />
+    <EMEA region="North" group="Sweden" country="Iceland" code="ISE" />
+    <EMEA region="Central" group="Sweden" country="Switzerland" code="CHE" />
+    <EMEA region="MEA" group="Egypt" country="Egypt" code="EG" />
+    <EMEA region="MEA" group="Morocco" country="Lebanon" code="LB" />
+    <EMEA region="MEA" group="Morocco" country="Morocco" code="MA" />
+    <EMEA region="MEA" group="South Africa" country="South Africa" code="ZA" />
+    <EMEA region="MEA" group="South Africa" country="Mauritius" code="MU" />
+    <EMEA region="MEA" group="South Africa" country="Mozambique" code="MZ" />
+    <EMEA region="MEA" group="Tunisia" country="Tunisia" code="TN" />
+    <EMEA region="South" group="Israel" country="Israel" code="IL" />
+    <EMEA region="MEA" group="Saudi Arabia" country="Saudi Arabia" code="SA" />
+    <EMEA region="MEA" group="United Arab Emirates" country="United Arab Emirates" code="AE" />
+    <EMEA region="MEA" group="Pakistan" country="Pakistan" code="PK" />
+    <EMEA region="MEA" group="Jordan" country="Jordan" code="JO" />
+    <EMEA region="MEA" group="Nigeria" country="Kenya" code="KE" />
+    <EMEA region="MEA" group="Nigeria" country="Nigeria" code="NG" />
+    <EMEA region="MEA" group="Uganda" country="Uganda" code="UG" />
+    <EMEA region="MEA" group="Uganda" country="Ghana" code="GH" />
+    <EMEA region="MEA" group="Uganda" country="Oman" code="OM" />
+    <EMEA region="MEA" group="Uganda" country="Tanzania" code="TZ" />
+    <EMEA region="MEA" group="Uganda" country="Namibia" code="NA" />
+    <EMEA region="MEA" group="Uganda" country="Bahrain" code="BH" />
+    <!-- GEO: EMEA end -->
+
+    <!-- GEO: AG start -->
+    <AG region="NA" group="United States of America" country="United States of America" code="US" />
+    <AG region="NA" group="United States of America" country="Canada" code="CA" />
+    <AG region="CAC" group="Panama" country="Panama" code="PA" />
+    <AG region="CAC" group="Panama" country="Guatemala" code="GT" />
+    <AG region="CAC" group="Costa Rica" country="Costa Rica" code="CR" />
+    <AG region="CAC" group="Costa Rica" country="El Salvador" code="SV" />
+    <AG region="LAS" group="Venezuela" country="Venezuela" code="VE" />
+    <AG region="LAS" group="Peru" country="Peru" code="PE" />
+    <AG region="LAS" group="Peru" country="Uruguay" code="UY" />
+    <AG region="LAS" group="Ecuador" country="Ecuador" code="EC" />
+    <AG region="LAS" group="Colombia" country="Colombia" code="CO" />
+    <AG region="LAS" group="Mexico" country="Mexico" code="MX" />
+    <AG region="LAS" group="Chile" country="Chile" code="CL" />
+    <AG region="LAS" group="Argentina" country="Argentina" code="AR" />
+    <AG region="LAS" group="Brazil" country="Brazil" code="BR" />
+    <!-- GEO: AG end -->
+
+    <!-- GEO: AP start -->
+    <AP region="ANZ" group="Australia" country="Australia" code="AU" />
+    <AP region="ANZ" group="New Zealand" country="New Zealand" code="NZ" />
+    <AP region="JP" group="Japan" country="Japan" code="JP" />
+    <AP region="HTK" group="Taiwan" country="Taiwan" code="TW" />
+    <AP region="Asean" group="Indonesia" country="Indonesia" code="ID" />
+    <AP region="Asean" group="Vietnam" country="Vietnam" code="VN" />
+    <AP region="India" group="India Off-shore" country="Off-shore" code="IN" />
+    <AP region="India" group="India On-shore" country="On-shore" code="IN" />
+    <AP region="Asean" group="Malaysia" country="Malaysia" code="MY" />
+    <AP region="Asean" group="Thailand" country="Thailand" code="TH" />
+    <AP region="Asean" group="Philippines" country="Philippines" code="PH" />
+    <AP region="Asean" group="Singapore" country="Singapore" code="SG" />
+    <AP region="HTK" group="Hong Kong" country="Hong Kong" code="HK" />
+    <AP region="HTK" group="Korea" country="Korea" code="KR" />
+    <!-- GEO: AP end -->
+
+    <!-- GEO: PRC start -->
+    <PRC region="PRC" group="China" country="China" code="CN" />
+    <!-- GEO: PRC end -->
+
+    <!-- Dock: Amazon start -->
+    <EMEA region="UKI" group="United Kingdom" country="United Kingdom for Amazon" code="GBDE" />
+    <EMEA region="Central" group="Sweden" country="Germany for Amazon" code="DEDE" />
+    <EMEA region="South" group="Sweden" country="Italy for Amazon" code="ITDE" />
+    <EMEA region="South" group="Sweden" country="France for Amazon" code="FRDE" />
+    <EMEA region="South" group="Sweden" country="Spain for Amazon" code="ESDE" />
+    <AG region="NA" group="United States of America" country="United States of America for Amazon" code="USD" />
+    <AG region="NA" group="United States of America" country="Canada for Amazon" code="CAD" />
+    <AP region="ANZ" group="Australia" country="Australia for Amazon" code="AUD" />
+    <AP region="ANZ" group="New Zealand" country="New Zealand for Amazon" code="NZD" />
+    <AP region="JP" group="Japan" country="Japan for Amazon" code="JPD" />
+    <AP region="India" group="India" country="India for Amazon" code="IND" />
+    <!-- Dock: Amazon end -->
+
+    <!-- Commercial: start -->
+    <EMEA region="UKI" group="United Kingdom" country="United Kingdom for EE carrier" code="GBZE" />
+    <!-- Commercial: end -->
+</list>
+
+
+
+

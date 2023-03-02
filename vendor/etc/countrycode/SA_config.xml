@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+    <config name="language" value="ar_EG"/>
+    <config name="date_formate_yyyy_mm_dd" value="yes"/>
+    <config name="timezone" value="Asia/Riyadh"/>
+</list>
